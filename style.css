@@ -1,0 +1,164 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    position: relative;
+    width: 1440px;
+    background: #cccccc;
+  
+}
+
+/*HEADER LOGO*/
+
+.encabezado{
+    width:940px;
+    margin-left: 250px;
+    margin-top: 40px;
+}
+
+
+
+
+.container{
+    width: 940px;
+    margin-bottom: 3%;
+    margin-left: 250px;
+    margin-right: 250px;
+    display: inline-flex;
+}
+
+.container-1{
+    width: 65%;
+    float: left;
+    text-align: -webkit-center;
+}
+
+.elementos{
+    display: table-caption;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.mensaje{
+    width: 470px;
+    height: 275px;
+    margin-bottom: 20px;
+    font-size: 46px;
+    color: #002a5c;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    text-align: center;
+    background: none;
+    resize: none;
+    border: none;
+    outline: none; 
+}
+
+.p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+  
+    
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    
+    position: static;
+    width: 328px;
+    height: 67px;
+    left: 0px;
+    top: 0px;
+    
+    /* Dark blue/dark-blue-300 */
+    
+    background: #0A3871;
+    border-radius: 24px;
+    color: white;
+  
+}
+
+.botones:hover{
+    transform: scale(1.30);
+}
+
+#Encriptar-Texto{
+    background: #458be0;
+    color:#0b2d5a;
+    border: 1px solid #ffffff;
+    border-radius: 24px;
+}
+
+#btnDes{
+    background: #D8DFE8;
+    color:#0A3871;
+    border: 1px solid #27303a;
+    border-radius: 24px;
+}
+
+.panelDer{
+    width: 35%;
+    float: right;
+    border-radius: 24px;
+    background: #4690ad;
+    text-align: center;
+}
+
+.elementos2{
+    display: table-caption;
+    text-align: center;
+    margin-left: 35px;
+}
+
+.etiqueta{
+    width: auto;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #4690ad;
+}
+
+.mostrar{
+    width: 237px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 52px;
+    font-size:revert;
+    color: #002a5c;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    resize: none;
+    border: none;
+    
+    outline: none;
+}
+
+#btnCopiar{
+    display: none;
+    width: 90%;
+    background: #D8DFE8;
+    color:#0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+}
+
+
+
+
